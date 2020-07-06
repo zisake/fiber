@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1594048440126,
+  "lastUpdate": 1594050535955,
   "repoUrl": "https://github.com/gofiber/fiber",
   "entries": {
     "Benchmark": [
@@ -38550,6 +38550,60 @@ window.BENCHMARK_DATA = {
             "value": 352,
             "unit": "ns/op\t      49 B/op\t       2 allocs/op",
             "extra": "3392982 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "25108519+Fenny@users.noreply.github.com",
+            "name": "fenny",
+            "username": "Fenny"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "155046bf6aa219a891a418a2b866046672c501cf",
+          "message": "Merge pull request #551 from Fenny/master\n\n✏ Update MD's",
+          "timestamp": "2020-07-06T11:48:07-04:00",
+          "tree_id": "bc62e75a978c306b4fc905de726656fdb190cf74",
+          "url": "https://github.com/gofiber/fiber/commit/155046bf6aa219a891a418a2b866046672c501cf"
+        },
+        "date": 1594050534724,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_Middleware_Compress",
+            "value": 370,
+            "unit": "ns/op\t      96 B/op\t       2 allocs/op",
+            "extra": "3260857 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_Favicon",
+            "value": 116,
+            "unit": "ns/op\t       1 B/op\t       1 allocs/op",
+            "extra": "9971466 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_Logger",
+            "value": 893,
+            "unit": "ns/op\t     226 B/op\t       3 allocs/op",
+            "extra": "1288248 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_Recover",
+            "value": 121,
+            "unit": "ns/op\t       1 B/op\t       1 allocs/op",
+            "extra": "10224757 times\n2 procs"
+          },
+          {
+            "name": "Benchmark_Middleware_RequestID",
+            "value": 323,
+            "unit": "ns/op\t      49 B/op\t       2 allocs/op",
+            "extra": "3694011 times\n2 procs"
           }
         ]
       }
