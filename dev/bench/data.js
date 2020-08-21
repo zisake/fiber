@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1597959168901,
+  "lastUpdate": 1597982982853,
   "repoUrl": "https://github.com/gofiber/fiber",
   "entries": {
     "Benchmark": [
@@ -100902,6 +100902,36 @@ window.BENCHMARK_DATA = {
             "value": 135,
             "unit": "ns/op\t       0 B/op\t       0 allocs/op",
             "extra": "9232958 times\n2 procs"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "25108519+Fenny@users.noreply.github.com",
+            "name": "Fenny",
+            "username": "Fenny"
+          },
+          "committer": {
+            "email": "25108519+Fenny@users.noreply.github.com",
+            "name": "Fenny",
+            "username": "Fenny"
+          },
+          "distinct": true,
+          "id": "30c546a5e1a739ed2b7504ec090030267c837501",
+          "message": "👂 addr string in listen",
+          "timestamp": "2020-08-21T06:09:08+02:00",
+          "tree_id": "edad9aa95b0828aca35c5cf7eec8d9c676df4e32",
+          "url": "https://github.com/gofiber/fiber/commit/30c546a5e1a739ed2b7504ec090030267c837501"
+        },
+        "date": 1597982980962,
+        "tool": "go",
+        "benches": [
+          {
+            "name": "Benchmark_Middleware_Favicon",
+            "value": 107,
+            "unit": "ns/op\t       0 B/op\t       0 allocs/op",
+            "extra": "9825368 times\n2 procs"
           }
         ]
       }
